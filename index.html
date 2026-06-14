@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NayePankh Foundation - Empowering Lives Through Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                  <img src="logo.png" alt="NayePankh Foundation Logo" class="logo-img">
+                 <span class="logo-text">NayePankh Foundation</span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#programs" class="nav-link">Mission</a>
+                <a href="#donate" class="nav-link">Donate</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#programs" class="mobile-link">Mission</a>
+        <a href="#donate" class="mobile-link">Donate</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge">
+                    <i class="fas fa-heart" style="color: rgb(240, 17, 17);"></i>
+                    <span>Making a Difference</span>
+                </div>
+                <h1 class="hero-title">
+                    Empowering Lives Through <span class="highlight">Education & Donating</span>
+                </h1>
+                <p class="hero-description">
+                   <h2 style="color: aliceblue;"> "NayePankh Foundation is a youth-led NGO dedicated to empowering underprivileged communities through education, health awareness, skill development, and social welfare initiatives."</h2>
+                <button class="btn-primary" onclick="scrollToSection('volunteer')">
+                    <span>Become a Volunteer</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="hero-image">
+                
+                    <p style="color: #0aecd9; font-size: 30px;">Spreading Hope & Education</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Us</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-subtitle">NayePankh Foundation</h3>
+                    <p class="about-description">
+                        Founded with a vision to create lasting change, NayePankh Foundation works tirelessly to empower underprivileged communities through education and sustainable development initiatives. We believe that every individual deserves access to quality education and opportunities to reach their full potential.
+                    </p>
+                    <div class="mission-vision">
+                        <div class="info-card">
+                            <div class="info-icon teal">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Our Mission</h4>
+                                <p>To provide quality education and skill development opportunities to underprivileged communities, enabling them to break the cycle of poverty.</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon amber">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Our Vision</h4>
+                                <p>A world where every person has the knowledge, skills, and resources to lead a dignified and fulfilling life.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder about-placeholder">
+                        <div class="placeholder-logo">NP</div>
+                        <p><h3>Your Kindness Can Change a Life.</h3></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Missions</h2>
+                <p class="section-description">
+                    We run various programs designed to create meaningful impact in the lives of individuals and communities.
+                </p>
+                <div class="title-underline"></div>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon teal">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="program-title">Education Support</h3>
+                    <p class="program-description">
+                        Providing quality education, scholarships, and learning resources to underprivileged children and youth.
+                    </p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon amber">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="program-title">Food Distribution</h3>
+                    <p class="program-description">
+                         Providing nutritious meals and essential food supplies to underprivileged families, helping fight hunger and support healthier communities.
+                    </p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon rose">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="program-title">Health Awareness</h3>
+                    <p class="program-description">
+                        Health camps, awareness programs, and medical support for communities in need.
+                    </p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon indigo">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="program-title">Community Development</h3>
+                    <p class="program-description">
+                        Sustainable development initiatives focusing on infrastructure, sanitation, and community welfare.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section id="volunteer" class="volunteer">
+        <div class="container">
+            <div class="volunteer-content">
+                <div class="volunteer-text">
+                    <h2 class="section-title">Join Our Mission</h2>
+                    <p class="volunteer-description">
+                        Your time and skills can make a real difference in someone's life. Join our community of dedicated volunteers and be part of the change you wish to see in the world.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Active Volunteers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="volunteer-form-container">
+                    <h3 class="form-title">Become a Volunteer</h3>
+                    <form id="volunteerForm" class="volunteer-form">
+                        <div class="form-group">
+                            <label for="volName">Full Name</label>
+                            <input type="text" id="volName" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="volEmail">Email Address</label>
+                            <input type="email" id="volEmail" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="volPhone">Phone Number</label>
+                            <input type="tel" id="volPhone" placeholder="Enter your phone number" required>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <span>Submit Application</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div id="volunteerSuccess" class="success-message hidden">
+                        <div class="success-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <p class="success-title">Thank you for registering!</p>
+                        <p class="success-text">We'll contact you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate" class="donate">
+    <div class="container">
+
+        <div class="section-header">
+            <h2 class="section-title">Support Our Mission</h2>
+            <p class="section-description">
+                Together, we can create opportunities and bring positive change to communities in need.
+            </p>
+        </div>
+
+        <div class="donate-content">
+
+            <div class="donate-card">
+
+                <div class="donate-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+
+                <h3>Why Your Support Matters</h3>
+
+                <p>
+                    NayePankh Foundation works towards empowering underprivileged communities through education,
+                    health awareness, food distribution, skill development, and social welfare initiatives.
+                </p>
+
+                <div class="support-grid">
+
+                    <div class="support-item">
+                        <i class="fas fa-book-open"></i>
+                        <span>Education Support</span>
+                    </div>
+
+                    <div class="support-item">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>Health Awareness</span>
+                    </div>
+
+                    <div class="support-item">
+                        <i class="fas fa-utensils"></i>
+                        <span>Food Distribution</span>
+                    </div>
+
+                    <div class="support-item">
+                        <i class="fas fa-users"></i>
+                        <span>Community Welfare</span>
+                    </div>
+
+                </div>
+
+                <p class="donate-footer-text">
+                    Every act of support helps us continue our mission of creating equal opportunities
+                    and improving lives.
+                </p>
+
+                <a href="#contact" class="btn-donate">
+                    Get Involved
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    Have questions or want to collaborate? We'd love to hear from you.
+                </p>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Contact Information</h3>
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon teal">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>contact@nayepankh.org</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon amber">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon rose">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Address</h4>
+                                <p>123 Charity Lane, New Delhi, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h3 class="form-title">Send us a Message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="contactName">Your Name</label>
+                            <input type="text" id="contactName" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email Address</label>
+                            <input type="email" id="contactEmail" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Your Message</label>
+                            <textarea id="contactMessage" rows="4" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div id="contactSuccess" class="success-message hidden">
+                        <div class="success-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <p class="success-title">Message Sent Successfully!</p>
+                        <p class="success-text">We'll get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-circle">  <i class="fas fa-heart" style="color: #0d9488;"></i></div>
+                        <span class="logo-text">NayePankh Foundation</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering communities through education and sustainable development.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 NayePankh Foundation. All rights reserved.</p>
+                <p class="made-with">Made with <i class="fas fa-heart"></i> for humanity</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
